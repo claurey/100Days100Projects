@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Meal Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <style>
+      main{
+          height: 100vh;
+          
+      }
+
+      body{
+          background-image: url('./twice_baked_breakfast_potatoes_close.jpg');
+          background-repeat: no-repeat;
+          background-size:cover;
+      }
+
+      .instructions{
+    text-align: justify;
+    }
+    
+    img{
+       width: 600px;
+    }
+     
+    </style>
+</head>
+<body>
+    <main class="container d-flex justify-content-center ">
+     <div class="row align-self-center ">
+        <div class="col">
+            <div class="jumbotron bg-light p-5 rounded-3">
+                    <h1 class="display-4 fw-bold">What do you want for lunch today?</h1>
+                    <hr class="my-4">
+                    <p class="lead">Random delicious recipes when you're not sure what to make.</br></p>
+                    <hr class="my-4">
+                    <div class="text-center">
+                        <p>Click on the buttom.
+                        </br>
+                        </br>
+                        <i class="fa fa-angle-double-down fa-3x"></i>
+                        </p>
+                        </br>
+                        <a class="btn btn-warning btn-lg" href="#" role="button" id="btnRecipe">New recipe
+                            <i class="fa fa-utensils"></i>
+                        </a>
+                    </div>
+                   
+                 
+            </div>
+        </div>   
+        </div> 
+    </main>
+    <section class="container bg-light mb-5 p-5" id="newRecipe">
+        <a class="btn btn-warning btn-lg" href="#" role="button" id="btnRecipe1">Get a recipe
+            <i class="fa fa-utensils"></i>
+        </a>
+    </br>
+    </br>
+    </br>
+    </section>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script src="./recipes.js"></script>
+</body>
+</html>
