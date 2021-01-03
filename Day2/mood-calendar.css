@@ -1,0 +1,68 @@
+button{
+    border: none;
+    background-color: transparent;
+}
+
+
+#crazy{
+    color: #6f42c1;
+}
+
+
+
+#happy{
+    color: #dc3545;
+}
+
+#angry{
+    color: #0d6efd;
+}
+
+
+
+#boring{
+    color: #00000;
+}
+
+#sad{
+    color: #20c997;
+}
+
+
+
+#tired{
+    color: #fd7e14;
+}
+
+.btnDay div{
+    color:rgb(255, 255, 255);
+    background-color: rgb(241, 199, 199);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding: 3px;
+}
+
+.sad div{
+    background-color: #20c997;
+}
+
+.crazy div{
+    background-color: #6f42c1;
+}
+
+.happy div{
+    background-color: #dc3545;
+}
+
+.angry div{
+    background-color: #0d6efd;
+}
+
+.boring div{
+    background-color: #000000;
+}
+
+.tired div{
+    background-color: #fd7e14;
+}
